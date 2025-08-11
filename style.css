@@ -1,0 +1,48 @@
+body {
+    background-color: #000; 
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.space-block {
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.block1 {
+    background-color: #ffcc00; 
+}
+
+.block2 {
+    background-color: #0066cc; /
+}
+
+.block3 {
+    background-color: #6600cc; 
+}
+
+.space-img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.caption {
+    margin-top: 10px;
+    font-weight: bold;
+}
